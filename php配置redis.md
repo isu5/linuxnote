@@ -30,7 +30,7 @@ OK
 
 #### 配置redis自启动 
 ```
- 
+ src/redis-server  nginx.conf
 
 ```
 
