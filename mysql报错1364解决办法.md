@@ -1,0 +1,1 @@
+### MySQL 1364 错误提示：#1364 - Field "details" doesn't have a default value### 解决办法有两种： > 第一种：数据库设计时，为可能没有数据的字段设置默认值。> 第二种：设置SQL的模式，此有两种方法： - （1），配置my.ini，去掉：STRICT_TRANS_TABLES 重新启动mysql服务。- （2），运行SQL命令。注：此命令需要权限！ SQL代码：```SET @@GLOBAL.sql_mode="NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION";```
