@@ -1,0 +1,1 @@
+#### git全局配置```git config --global user.email 'xxx@126.com'git config --global user.name 'isu5cn'```
