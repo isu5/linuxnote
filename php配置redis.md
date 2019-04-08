@@ -29,6 +29,9 @@ OK
 ```
 
 #### 配置redis自启动 
+
+![avatar](./images/redis.png)
+
 ```
  src/redis-server  nginx.conf  //重启
 
