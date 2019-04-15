@@ -41,4 +41,7 @@ tcp        0      0 127.0.0.1:59544         127.0.0.1:6380          ESTABLISH
 
 ```
 find / -name "redis_6380.conf" | xargs grep "127.0.0.1"
+
+whereis 文件名 快速查找
+#whereis nginx.conf
 ```
