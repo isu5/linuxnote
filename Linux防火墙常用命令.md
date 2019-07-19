@@ -36,4 +36,7 @@ sudo firewall-cmd --reload
 sudo firewall-cmd --zone=public --remove-port=80/tcp --permanent
 sudo firewall-cmd --reload
 ```
+连接
+https://yq.aliyun.com/articles/704879?spm=a2c4e.11155472.0.0.17dd4a0d6UNZTb
+
 ![avatar](./images/kurumi_test.png)
