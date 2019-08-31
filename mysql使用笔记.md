@@ -6,5 +6,9 @@ mysqldump -u root -p books > /www/wwwroot/books.sql
 ```
 #### mysql 命令行导入
 ```
+use securityonion_db; 
+
+set names utf8; 
+
 source /路径/db.sql;
 ```
