@@ -4,3 +4,7 @@
 ```
 mysqldump -u root -p books > /www/wwwroot/books.sql
 ```
+#### mysql 命令行导入
+```
+source /路径/db.sql;
+```
