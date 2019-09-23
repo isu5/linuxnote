@@ -77,7 +77,15 @@ centOS7关闭防火墙命令： systemctl stop firewalld.service
 
 随后访问该ip即可看到nginx界面。
 
+---
 
+### PHP安装
+
+> 一：检查是否安装了php
+
+- 1. yum安装检查：yum list installed | grep php
+
+- 2. rpm安装检查：rpm -qa | grep php
 
 
 
