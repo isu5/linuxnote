@@ -40,7 +40,7 @@ vi /usr/local/nginx/conf/nginx.conf
 
 2.localhost修改为你服务器ip地址。
 
-![avatar](https://images2015.cnblogs.com/blog/1095329/201703/1095329-20170328193900029-2024017752.png)
+![image](https://images2015.cnblogs.com/blog/1095329/201703/1095329-20170328193900029-2024017752.png)
 
 > 5.启动nginx
 ```
