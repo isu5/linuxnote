@@ -36,7 +36,7 @@ vi /usr/local/nginx/conf/nginx.conf
 
 ```
 
-1.将端口号改成8089，因为可能apeache占用80端口，apeache端口尽量不要修改，我们选择修改nginx端口。
+1.将端口号改成8090(端口自定义)，因为可能apeache占用80端口，apeache端口尽量不要修改，我们选择修改nginx端口。
 
 2.localhost修改为你服务器ip地址。
 
