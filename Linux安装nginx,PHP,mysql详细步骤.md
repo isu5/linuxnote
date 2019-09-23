@@ -75,7 +75,7 @@ centOS6及以前版本使用命令： systemctl stop iptables.service
 
 centOS7关闭防火墙命令： systemctl stop firewalld.service
 
-随后访问该ip即可看到nginx界面。
+随后访问该 ip:加端口 即可看到nginx界面。
 
 ---
 
@@ -83,9 +83,10 @@ centOS7关闭防火墙命令： systemctl stop firewalld.service
 
 > 一：检查是否安装了php
 
-- 1. yum安装检查：yum list installed | grep php
+- yum安装检查：yum list installed | grep php
 
-- 2. rpm安装检查：rpm -qa | grep php
+- rpm安装检查：rpm -qa | grep php
+
 
 
 
